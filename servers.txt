@@ -1,0 +1,3 @@
+localhost:2020
+localhost:2040
+localhost:2060
