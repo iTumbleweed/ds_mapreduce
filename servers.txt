@@ -1,3 +1,5 @@
-localhost:2020
-localhost:2040
-localhost:2060
+localhost:8020
+localhost:8040
+localhost:8060
+localhost:8080
+localhost:8100
