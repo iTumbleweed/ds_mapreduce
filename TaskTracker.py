@@ -1,12 +1,23 @@
 ''' This file contains an implementation of a TaskTracker which can perform
 Map, Reduce and Shuffle operations. It also sends heartbeat operations to a JobTracker'''
 
-
+# Constants
+MAX_SLOTS = 4
 
 class TaskTracker(object):
 	def __init__(self):
-		self.busySlots = 0
+		self.emptySlots = MAX_SLOTS
+		
+
+	def processJob(self):
+		'''
+		Processes any job.
+
+		Returns:
+			Nothing
+		'''
 		pass
+
 
 	def Map(self):
 		'''
@@ -17,6 +28,7 @@ class TaskTracker(object):
 		'''
 		pass
 
+
 	def Reduce(self):
 		'''
 		Executes a Reduce task
@@ -26,14 +38,16 @@ class TaskTracker(object):
 		'''
 		pass
 
+
 	def Shuffle(self):
 		'''
 		Executes a Shuffle task.
-		
+
 		Returns: 
 			Nothing
 		'''
 		pass
+
 
 	def sendHeartbeat(self):
 		'''

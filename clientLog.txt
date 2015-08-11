@@ -1,0 +1,3 @@
+08-10 21:30 root         INFO     Initializing system
+08-10 21:30 root         INFO     Path: root
+08-10 21:30 root         INFO     The system is initialized. Available size is 262144000 bytes
